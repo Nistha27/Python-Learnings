@@ -1,2 +1,2 @@
 # Python-Learnings
-Learning Python from level Zero 
+Learning Python from level Zero
