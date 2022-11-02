@@ -129,6 +129,7 @@ mylist= ['one,'two','three',4,5]
 
 2 Deleting items from list
 >>mylist.pop()
+
 **Note :** by default pop deletes off the last index object
 
 3. Reversing the list
@@ -141,7 +142,7 @@ mylist= ['one,'two','three',4,5]
 >> For alphabets it takes alphabetical order
 >> For numbers it takes asending order
 
-#### **Nesting Lists**
+#### Nesting Lists*
 
 >>lst_1=[1,2,3]
 >>lst_2=[4,5,6]
@@ -151,7 +152,23 @@ mylist= ['one,'two','three',4,5]
 >>matrix
 [[1,2,3],[4,5,6]]
  
+## Dictionaries
 
+>#### Creating Dictionaries
 
+>> mydict={'key1':'value1','key2':'value2'}
+
+##### Calling values by their key
+
+>> mydict['key2']
+   value2
+   
+##### Setting the object equal to itself minus 123
+
+>> mydict['key1'] = 123
+>> mydict['key1']
+   123
+  
+##### Or by assinging direct values
 
 
