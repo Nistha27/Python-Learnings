@@ -16,18 +16,18 @@
 8. () (Parenthesis)
 
 #### **Variable Assigment**
-### **Rules to be noted **
+### **Rules to be noted**
 1. Names cannot start with numbers
 2. No special characters (only _ underscore)
 3. No keywords allowed that has special meaning in python
 
 #### **Assigngning Values**
-*Syntax*
+*Syntax: *
 name = object ( = as assignment operator)
 
-#### ** To determine variable type **
+#### **To determine variable type**
  *use* type()
-##### ** Types of variables **
+##### **Types of variables**
 1. int
 2. float
 3. str
@@ -37,8 +37,33 @@ name = object ( = as assignment operator)
 7. set
 8. bool
 
+## Strings 
+*immutable datatype*
 
+### **Creating String**
+ to create string use single quotes ('') or double quotes (" ")
+ 
+### **Printing String**
 
+print('Hello World' )
+  Hello World
+ 
+**Note**- 1. \n - for new lines
+          2. \t - for space
+		  
+### String Basics **
+check length of the string
+len('Hello World')
+11
+
+### **String Indexing**
+
+Use [ ] (square brackets)
+Ue : (to perform Slicing)
+
+### **String Properties**
+ + - *concatenate strings i.e adding two strings*
+ 
  
 
 
