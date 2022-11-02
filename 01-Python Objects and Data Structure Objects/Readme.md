@@ -87,7 +87,22 @@ Example:
 
 3. print('The {2} {0} {1}'.format('fox','brown','quick'))
     
-	The quick fox brown (*by using index no*)
+	The quick fox brown (*by using index no.*)
+	
+#### by float formatting method 
+
+Example:
+
+1. result=100/777
+   
+   result = 104.1235
+   
+   print('The result was {r}'.format(r=result))
+   
+   The result was 104.1235
+   
+   
+
 	
 
  
