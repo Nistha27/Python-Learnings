@@ -15,7 +15,7 @@
 7. ** (Power)
 8. () (Parenthesis)
 
-#### **Variable Assigment**
+## 0.2 **Variable Assigment**
 ### **Rules to be noted**
 1. Names cannot start with numbers
 2. No special characters (only _ underscore)
@@ -37,7 +37,7 @@ name = object ( = as assignment operator)
 7. set
 8. bool
 
-## Strings 
+## 03. Strings 
 *immutable datatype*
 
 ### **Creating String**
@@ -101,12 +101,8 @@ Example:
    
    The result was 104.1235
    
-   
 
-	
-
- 
- 
+## 0.4 **Lists**
 
 
 
