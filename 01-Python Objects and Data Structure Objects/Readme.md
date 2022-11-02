@@ -104,6 +104,54 @@ Example:
 
 ## 0.4 **Lists**
 
+#### **Creating List**
+
+mylist = [1,22,3]
+
+>>len(mylist)
+3
+
+#### **Indexing and Slicing**
+
+mylist= ['one,'two','three',4,5]
+
+>>mylist[:3]
+['one','two','three']
+
+**Note** :
+
++ to concatenate the list
+
+#### Basic List Methods
+
+1. Making a new list by addding new item 
+>> mylist.append('')
+
+2 Deleting items from list
+>>mylist.pop()
+**Note :** by default pop deletes off the last index object
+
+3. Reversing the list
+>>mylist.reverse()
+
+4. Sorting
+>>mylist.sort()
+
+**Note**:
+>> For alphabets it takes alphabetical order
+>> For numbers it takes asending order
+
+#### **Nesting Lists**
+
+>>lst_1=[1,2,3]
+>>lst_2=[4,5,6]
+
+>>matrix = [lst_1,lst_2]
+
+>>matrix
+[[1,2,3],[4,5,6]]
+ 
+
 
 
 
