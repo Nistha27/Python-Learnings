@@ -62,10 +62,34 @@ len('Hello World')
 ### **String Indexing**
 
 Use [ ] (square brackets)
-Ue : (to perform Slicing)
+Use : (to perform Slicing)
 
 ### **String Properties**
- + - *concatenate strings i.e adding two strings*
+ 1. + - *concatenate strings i.e adding two strings*
+ 2. * -  *to create repeatition in string*
+ 3. .upper() - uppercase all
+ 4. .lower() - lowercase all
+ 5. .split() - split string by blank spaces (by default)
+ 
+### **Print Formatting**
+
+*.format() method*
+
+Example:
+
+1. print('This is a string {}'. format('inserted'))
+
+     This is  a string inserted
+
+2. print('The {} {} {} '.format('fox','brown','quick'))
+
+     The fox brown quick 
+
+3. print('The {2} {0} {1}'.format('fox','brown','quick'))
+    
+	The quick fox brown (*by using index no*)
+	
+
  
  
 
