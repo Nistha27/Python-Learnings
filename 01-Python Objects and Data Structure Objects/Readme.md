@@ -48,12 +48,15 @@ name = object ( = as assignment operator)
 print('Hello World' )
   Hello World
  
-**Note**- 1. \n - for new lines
-          2. \t - for space
+**Note**- 
+1. \n - for new lines
+2. \t - for space
 		  
-### String Basics **
+### **String Basics**
 check length of the string
+
 len('Hello World')
+
 11
 
 ### **String Indexing**
