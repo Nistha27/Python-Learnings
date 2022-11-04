@@ -127,7 +127,7 @@ mylist= ['one,'two','three',4,5]
 1. Making a new list by addding new item 
 >> mylist.append('')
 
-2 Deleting items from list
+2. Deleting items from list
 >>mylist.pop()
 
 **Note :** by default pop deletes off the last index object
@@ -142,7 +142,7 @@ mylist= ['one,'two','three',4,5]
 >> For alphabets it takes alphabetical order
 >> For numbers it takes asending order
 
-#### Nesting Lists*
+#### **Nesting Lists**
 
 >>lst_1=[1,2,3]
 >>lst_2=[4,5,6]
