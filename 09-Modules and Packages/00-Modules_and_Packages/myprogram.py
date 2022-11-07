@@ -1,6 +1,6 @@
-from MyMainPackage import somemainscripts
+from MyMainPackage.some_main_script import report_main
 from MyMainPackage.SubPackage import mysubscript
 
-somemainscripts.report_main()
+report_main()
 
 mysubscript.sub_report()
