@@ -21,5 +21,36 @@ Overall, Streamlit is a powerful tool for data scientists and developers who wan
 
 6. **Active and Supportive Community:** Streamlit has gained popularity within the data science and machine learning communities. It has an active community of users who contribute examples, share best practices, and provide support. This vibrant community makes it easy to find resources and get help when needed.
 
-## Funcctions in Streamlit
+## Streamlit note
+    
+- import *streamlit* as *st*
 
+- **To run ** : streamlit run < **file name**>
+
+### Functions 
+
+1. st.title("Title")
+
+2. st.subheader("Subheader")
+
+3. st.header("Header")
+
+4. st.text("Text")
+
+5. st.markdown("Markdown script text")
+
+6. st.latex(" Mathematical Functions")
+
+7. st.json("Json script")
+
+8. st.code("Python codes")
+
+9. st.write("Allow all the different styling")
+
+10. st.metric("Metric")
+
+11. st.image("Image")
+
+12. st.video("Video")
+
+13. st.audio("Audio")
