@@ -1,13 +1,13 @@
 # *STREAMLIT*
  
-## What it is # ?
+## What it is STREAMLIT **?**
 
 Streamlit is an open-source Python library that makes it easy to create and share interactive web applications for data science and machine learning projects. It provides a simple and intuitive interface for building web-based applications without requiring extensive web development knowledge.
 With Streamlit, you can quickly turn your data analysis scripts or machine learning models into interactive web apps. It simplifies the process of creating user interfaces by providing pre-built components and widgets that allow you to visualize data, display text, and accept user inputs. Streamlit automatically updates the app in real-time as you modify your code, which makes the development process highly interactive and iterative.
 Streamlit integrates seamlessly with popular Python libraries like pandas, matplotlib, and scikit-learn, allowing you to leverage their functionalities in your web app. It also provides features for caching, sharing, and deploying your apps with ease.
 Overall, Streamlit is a powerful tool for data scientists and developers who want to create interactive and dynamic web applications to showcase their work, share insights, or create interactive demos.
 
-## Why Streamlit? ?
+## Why Streamlit ? 
 
 1. **Easy and Intuitive:** Streamlit provides a simple and intuitive interface for creating web applications. Its API is designed to be user-friendly, allowing developers to quickly build interactive apps without needing extensive web development experience.
 
@@ -23,4 +23,3 @@ Overall, Streamlit is a powerful tool for data scientists and developers who wan
 
 ## Funcctions in Streamlit
 
-> s
