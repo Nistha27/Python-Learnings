@@ -25,7 +25,7 @@ Overall, Streamlit is a powerful tool for data scientists and developers who wan
     
 - import *streamlit* as *st*
 
-- **To run ** : streamlit run < **file name**>
+- **To run** : streamlit run < **file name**>
 
 ### Functions 
 
