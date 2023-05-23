@@ -169,6 +169,83 @@ mylist= ['one,'two','three',4,5]
 >> mydict['key1']
    123
   
-##### Or by assinging direct values
+##### Or by assinging direct value
+>> d = {}
+   d['animal'] = 42
+   d['answer'] = 'Dog'
 
+>> d
+{'animal':42,'answer':'Dog']
 
+##### Nesting with Dictionaries
+
+>> d = {'key1':{''nesting':'dictionary'},'key2':'value'}
+>> d['key1;]
+   {'nesting':'dictionary'}
+   
+##### Dictionary Methods
+
+**d.keys():** Grabs all keys
+>> dict_keys(['key1','key2'])
+**d.values():** Grabs all the values
+>> dict_values([{'nesting':'dictionary'},'value'])
+**d.items():** Grabs all the items 
+>> dict_items([('key1',{'nesting':'dictionary'}),('key2',value)]
+
+## Tuples
+**(immutable datatype)**
+
+#### Constructing Tuples
+>> t=(1,2,3)
+>>len(t)
+  3 
+
+#### Basic Tuples Methods 
+
+##### In built functions 
+1. **t.index()**: To enter a value and returns the index 
+2. **t.count()**: To count the no of times a value appears
+
+## Sets   
+Set of unorderd collection of unique elements
+
+#### Constructing Set
+>> x =set()
+>> x.add(1)
+>> x
+  {1}
+
+>> x.add(2)
+>> x
+   {1,2}
+
+##### Creating a list with repeats
+
+>> list1=[1,1,2,2,4,5,6,1,1]
+>> set(list)
+  {1,2,4,5,6}
+
+## Booleans
+True or Flase
+**None:** As a placeholder for an object that we dont want to reassign yet.
+
+## Files
+
+##### To open file 
+>> my_file = open("Test.txt")
+
+##### To Read
+1. my_file.read() : reads all the lines
+>> *Hello , this is a quick test file.*
+
+2. my_file.seek(0) : seek to start of file (index 0)
+
+3. my_file.readlines() : Returns a listof the lines in the file 
+>> [Hello , this is a quick test file.*]
+
+##### Writing to a File 
+( by default open() func only allows you to read the file )
+
+>> my_file = open("Test.text','w+')
+
+*
