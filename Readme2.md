@@ -54,3 +54,21 @@ Overall, Streamlit is a powerful tool for data scientists and developers who wan
 12. st.video("Video")
 
 13. st.audio("Audio")
+
+### Interactive Widgets in Streamlit
+
+1. **Checkbox:** 
+                st.checkbox("Label",value=" ",on_change=" ",key=" ")
+				
+2. **Radio Button:**
+               st.radio("Label",options=(" "," "))
+
+3. **Buttons:**
+               st.button("Label",on_click=" ")
+				
+4. **Select:**
+               st.selectbox("Label",options=(" "," "))
+
+5. **Multi Select:**
+                st.multiselect("Label",options=(" "," "))
+				 
