@@ -240,12 +240,12 @@ True or Flase
 
 2. my_file.seek(0) : seek to start of file (index 0)
 
-3. my_file.readlines() : Returns a listof the lines in the file 
+3. `my_file.readlines()1` : Returns a listof the lines in the file 
 >> [Hello , this is a quick test file.*]
 
 ##### Writing to a File 
 ( by default open() func only allows you to read the file )
 
->> my_file = open("Test.text','w+')
+>> `my_file = open("Test.text','w+')`
 
 *
