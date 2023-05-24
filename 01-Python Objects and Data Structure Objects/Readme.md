@@ -196,33 +196,33 @@ mylist= ['one,'two','three',4,5]
 **(immutable datatype)**
 
 #### Constructing Tuples
->> t=(1,2,3)
->>len(t)
+>>`t=(1,2,3)`
+>>`len(t)`
   3 
 
 #### Basic Tuples Methods 
 
 ##### In built functions 
-1. **t.index()**: To enter a value and returns the index 
-2. **t.count()**: To count the no of times a value appears
+1. `**t.index()**`: To enter a value and returns the index 
+2. `**t.count()**`: To count the no of times a value appears
 
 ## Sets   
 Set of unorderd collection of unique elements
 
 #### Constructing Set
->> x =set()
->> x.add(1)
+>> `x =set()`
+>> `x.add(1)`
 >> x
   {1}
 
->> x.add(2)
->> x
+>> `x.add(2)`
+>>` x`
    {1,2}
 
 ##### Creating a list with repeats
 
->> list1=[1,1,2,2,4,5,6,1,1]
->> set(list)
+>> `list1=[1,1,2,2,4,5,6,1,1`]
+>> `set(list)`
   {1,2,4,5,6}
 
 ## Booleans
@@ -232,15 +232,15 @@ True or Flase
 ## Files
 
 ##### To open file 
->> my_file = open("Test.txt")
+>> `my_file = open("Test.txt")`
 
 ##### To Read
-1. my_file.read() : reads all the lines
+1. `my_file.read()` : reads all the lines
 >> *Hello , this is a quick test file.*
 
-2. my_file.seek(0) : seek to start of file (index 0)
+2. `my_file.seek(0)` : seek to start of file (index 0)
 
-3. `my_file.readlines()1` : Returns a listof the lines in the file 
+3. `my_file.readlines()` : Returns a listof the lines in the file 
 >> [Hello , this is a quick test file.*]
 
 ##### Writing to a File 
@@ -248,4 +248,10 @@ True or Flase
 
 >> `my_file = open("Test.text','w+')`
 
-*
+*open file w or w+* --> meaning original file is detected and is written.
+
+##### Appending to  a File 
+
+**a:** opens a file and put the pointer at the end so it is appeneded
+
+**w+ and a+:** lets us read and write the file if the file does not exists, one be created  
