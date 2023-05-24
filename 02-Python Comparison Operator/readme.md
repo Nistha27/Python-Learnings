@@ -13,14 +13,14 @@
 
 ## Chained Compaarision 
 
-1.***and***: True **and** False = False
-             True **and** True = True
-             False **and** True = False
-             False **and** False = False
+1.***and***: - True **and** False = False
+             - True **and** True = True
+             - False **and** True = False
+             - False **and** False = False
 			 
 			 
-2. **or**:  True **and** False = True
-            True **and** True = True
-            False **and** True = True
-            False **and** False = False
+2. **or**:  - True **and** False = True
+            - True **and** True = True
+            - False **and** True = True
+            - False **and** False = False
 			  			 
