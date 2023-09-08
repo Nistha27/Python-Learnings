@@ -255,3 +255,4 @@ True or Flase
 **a:** opens a file and put the pointer at the end so it is appeneded
 
 **w+ and a+:** lets us read and write the file if the file does not exists, one be created  
+Thank you 
